@@ -8,13 +8,10 @@ The mapping between ID and driver name is as follows:
 
 | Driver ID | Driver Name     |
 |-----------|-----------------|
-| 0         | Charles Leclerc |
-| 1         | Lewis Hamilton  |
+| 0         | Pierre Gasly    |
+| 1         | Charles Leclerc |
 | 2         | Max Verstappen  |
 
-
-## Program Requirements
-Write an assembly program that retrieves the data related to the driver indicated in the first line of the file, based on specified thresholds. Three thresholds are defined for all monitored data: LOW, MEDIUM, and HIGH.
 
 ## Output Format
 The output file should contain these thresholds for all time intervals in which the driver is monitored. The lines of the output file should be structured in the following format: `,,,`
@@ -45,17 +42,25 @@ Let's consider an example input file with only 3 drivers, two time samples, and 
 Input file:
 
 Charles Leclerc
+
 0.01023,0,0,3505,90
+
 0.01023,1,5,4305,89
+
 0.01023,2,0,3505,90
+
 0.02042,0,0,3507,90
+
 0.02042,1,10,5001,100
+
 0.02042,2,0,3507,90
 
 Output file:
 
 0.01023,LOW,LOW,LOW
+
 0.02042,MEDIUM,MEDIUM,LOW
+
 5001,100,10,7
 
 
