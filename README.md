@@ -39,7 +39,7 @@ The thresholds for the monitored data are defined as follows:
 ## Example
 Let's consider an example input file with only 3 drivers, two time samples, and the requirement to monitor Charles Leclerc.
 
-Input file:
+## Input file:
 
 Charles Leclerc
 
@@ -55,7 +55,7 @@ Charles Leclerc
 
 0.02042,2,0,3507,90
 
-Output file:
+## Output file:
 
 0.01023,LOW,LOW,LOW
 
