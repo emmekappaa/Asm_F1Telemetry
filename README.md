@@ -2,7 +2,9 @@
 
 ## Description
 This program simulates a telemetry system for the F1 video game. The system takes raw input data for engine revolutions per minute (RPM), engine temperature, and speed for all drivers participating in the race at each time interval. Each field is separated by a comma. Each line of the input file is structured as follows: `,,,, ...` The driver ID represents a unique numerical value that identifies a driver.
-The program will process the data for the requested pilot and output a detailed report
+The program will process the data for the requested pilot and output a detailed report.
+
+The entire project was realized using only assembly.
 
 ## Driver ID Mapping
 The mapping between ID and driver name is as follows:
@@ -78,3 +80,10 @@ Charles Leclerc
 
 In this example, the ID of Charles Leclerc is 1 (see table). The system should filter the lines and consider only those where the ID matches Charles Leclerc's ID.
 
+# How to:
+
+1. Clone the repository
+2. Type make 
+3. Go to bin/
+4. ./telemetry input.txt output.txt
+    
