@@ -2,6 +2,7 @@
 
 ## Description
 This program simulates a telemetry system for the F1 video game. The system takes raw input data for engine revolutions per minute (RPM), engine temperature, and speed for all drivers participating in the race at each time interval. Each field is separated by a comma. Each line of the input file is structured as follows: `,,,, ...` The driver ID represents a unique numerical value that identifies a driver.
+The program will process the data for the requested pilot and output a detailed report
 
 ## Driver ID Mapping
 The mapping between ID and driver name is as follows:
@@ -11,12 +12,23 @@ The mapping between ID and driver name is as follows:
 | 0         | Pierre Gasly    |
 | 1         | Charles Leclerc |
 | 2         | Max Verstappen  |
-
-
-## Output Format
-The output file should contain these thresholds for all time intervals in which the driver is monitored. The lines of the output file should be structured in the following format: `,,,`
-
-Additionally, an additional line should be added at the end of the output file, which should contain the following information in the specified order: the maximum detected RPM, the maximum detected temperature, the peak speed, and the average speed. The structure of the last line should be as follows: `,,,`
+| 3         | Lando Norris    |
+| 4         | Sebastian Vettel       |
+| 5         | Daniel Ricciardo      |
+|6          | Lance Stroll       |
+| 7         | Carlos Sainz       |
+| 8         | Antonio Giovinazzi      |
+| 9         | Kevin Magnussen     |
+| 10        | Alexander Albon      |
+| 11        | Nicholas Latifi    |
+| 12        | Lewis Hamilton       |
+| 13        | Romain Grosjean      |
+| 14        | George Russel       |
+| 15        | Sergio Perez       |
+| 16        | Daniil Kvyat      |
+| 17        | Kimi Raikkonen       |
+| 18        | Esteban Ocon       |
+| 19        | Valtteri Bottas    |
 
 ## Thresholds
 The thresholds for the monitored data are defined as follows:
