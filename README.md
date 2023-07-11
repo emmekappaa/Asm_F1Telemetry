@@ -80,7 +80,7 @@ Charles Leclerc
 
 In this example, the ID of Charles Leclerc is 1 (see table). The system should filter the lines and consider only those where the ID matches Charles Leclerc's ID.
 
-# How to:
+# How to Run:
 
 1. Clone the repository
 2. Type make 
