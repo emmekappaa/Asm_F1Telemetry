@@ -1,5 +1,5 @@
 # F1 Telemetry Simulator
-
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 ## Description
 This program simulates a telemetry system for the F1 video game. The system takes raw input data for engine revolutions per minute (RPM), engine temperature, and speed for all drivers participating in the race at each time interval. Each field is separated by a comma. Each line of the input file is structured as follows: `,,,, ...` The driver ID represents a unique numerical value that identifies a driver.
 The program will process the data for the requested pilot and output a detailed report.
