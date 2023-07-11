@@ -51,7 +51,7 @@ The thresholds for the monitored data are defined as follows:
   - HIGH: speed > 250
 
 ## Example
-Let's consider an example input file with only 3 drivers, two time samples, and the requirement to monitor Charles Leclerc.
+Consider an example input file with only 3 drivers, two-time samples, and the requirement to monitor Charles Leclerc.
 
 ## Input file:
 
@@ -87,5 +87,5 @@ In this example, the ID of Charles Leclerc is 1 (see table). The system should f
 3. Go to bin/
 4. `./telemetry input.txt output.txt`
 
-If you want to check if the obtained output is equals to the expected output you can use : ` diff <your_output>.txt out_X.txt `
+If you want to check if the obtained output is equal to the expected result you can use : ` diff <your_output>.txt out_X.txt `
     
