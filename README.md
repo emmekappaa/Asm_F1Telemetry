@@ -83,8 +83,8 @@ In this example, the ID of Charles Leclerc is 1 (see table). The system should f
 # How to Run:
 
 1. Clone the repository
-2. Type make 
-3. Go to bin/
+2. Type `make`
+3. Go to `bin/`
 4. `./telemetry input.txt output.txt`
 
 If you want to check if the obtained output is equal to the expected result you can use : ` diff <your_output>.txt out_X.txt `
